@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.main_header{
+    background-color: #EEEFF1;
+    padding: 70px 0;
+}
+.main_navigation{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.main_navigation li{
+    display: inline-block;
+    text-transform: uppercase;
+}
