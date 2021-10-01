@@ -1,6 +1,6 @@
-*{
-    box-sizing: border-box;
-}
+@import url(css/fonts.css);
+@import url(css/main.css);
+
 .main_header{
     background-color: #EEEFF1;
     padding: 70px 0;
@@ -8,8 +8,163 @@
 .main_navigation{
     margin-left: 300px;
     margin-right: 300px;
+    font-size: 16px;
+    line-height: 18px;
 }
 .main_navigation li{
     display: inline-block;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 41px;
 }
+.main_navigation li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.main_navigation li a:hover{
+    color: #34547A;
+}
+.main_wrapper{
+    background-color: #EEEFF1; 
+    padding-top: 90px; 
+    padding-bottom: 141px;
+}
+.main_content{
+    margin-left: 300px;
+    margin-right: 300px;  
+}
+.main_wrapper .title{
+    margin-bottom: 30px;
+    width: 541px;
+}
+.main_wrapper .description{
+    line-height: 26px;
+    margin-bottom: 54px;
+    color: #727272;
+    width: 541px;
+}
+.main_wrapper .button{
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    letter-spacing: 1px;
+}
+.main_wrapper .button a{
+    display: block;
+    padding: 19px 41px 20px 41px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 26px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+.about_me{
+    background-color: #fff;
+    padding: 75px 300px;
+}
+.about_me_title{
+    width: 403px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.about_me_description{
+    width: 540px;
+    color: #727272;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.projects{
+    background-color: #34547A;
+    padding: 100px 300px;
+}
+.project{
+    display: inline-block;
+    width: 160px;
+    margin-right: 64px;
+}
+.project:last-child{
+    margin-right: 0;
+}
+.project .icon{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.project_description{
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+}
+.project_description p:first-child{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    margin-top: 5px;
+}
+.project_description p:last-child{
+    margin-top: 6px;
+}
+
+.my_work{
+    background-color: #EEEFF1;
+    padding: 100px 300px;
+}
+.my_work_title{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 403px;
+}
+.my_work_description{
+    line-height: 26px;
+    color: #727272;
+    letter-spacing: 1px;
+    width: 540px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.my_work_video{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+.main_footer{
+    background-color: #34547A;
+    padding: 50px 300px;
+    color: #fff;
+}
+
+.footer_name{
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.footer_copyrights{
+    font-size: 13px;
+    line-height: 15px;
+}
+
