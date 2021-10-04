@@ -5,9 +5,11 @@
     background-color: #EEEFF1;
     padding: 70px 0;
 }
+.main_header_wrapper{
+    width: 1300px;
+    margin: 0 auto;
+}
 .main_navigation{
-    margin-left: 300px;
-    margin-right: 300px;
     font-size: 16px;
     line-height: 18px;
 }
@@ -32,7 +34,9 @@
 }
 .main_content{
     margin-left: 300px;
-    margin-right: 300px;  
+    margin-right: 300px; 
+    width: 1300px;
+    margin: 0 auto; 
 }
 .main_wrapper .title{
     margin-bottom: 30px;
@@ -59,11 +63,6 @@
     color: white;
     text-align: center;
 }
-
-
-
-
-
 .about_me{
     background-color: #fff;
     padding: 75px 300px;
@@ -82,19 +81,19 @@
     line-height: 26px;
     letter-spacing: 1px;
 }
-
-
-
-
-
 .projects{
     background-color: #34547A;
     padding: 100px 300px;
 }
+.projects_wrapper{
+    margin: 0 auto;
+    width: 1300px;
+}
 .project{
     display: inline-block;
     width: 160px;
-    margin-right: 64px;
+    margin-right: 68px;
+    vertical-align: top;
 }
 .project:last-child{
     margin-right: 0;
@@ -146,17 +145,15 @@
     display: block;
     margin: 0 auto;
 }
-
-
-
-
-
 .main_footer{
     background-color: #34547A;
     padding: 50px 300px;
     color: #fff;
 }
-
+.footer_wrapper{
+    width: 1300px;
+    margin: 0 auto;
+}
 .footer_name{
     font-size: 21px;
     line-height: 24px;
